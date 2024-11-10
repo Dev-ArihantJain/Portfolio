@@ -49,7 +49,6 @@ window.addEventListener('mousemove',
         mouse.y = e.clientY;
         // cursor.x = e.clientX - rect.left;
         // cursor.y = e.clientY - rect.top;
-        console.log(rect.left,rect.top)
     }
 )
 
