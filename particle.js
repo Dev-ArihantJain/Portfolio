@@ -255,7 +255,7 @@ let ballParticles;
 function init(){
     ballParticles =[];
 
-    for(let i =0; i<150;i++){
+    for(let i =0; i<50;i++){
         const radius =15;
         let x = Math.random()*(innerWidth-radius*2)+radius;
         let y = Math.random()*(innerHeight-radius*2)+radius;
