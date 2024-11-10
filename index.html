@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arihant Jain</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/"
+          }
+        }
+      </script>
+</head>
+
+<body>
+  <div id="main">
+
+    <section id="top"></section>
+
+    <header id="header">
+      <nav id="nav">
+        <ul id="navItems">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#home">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="container">
+      <canvas id="canvas2"></canvas>
+    </div>
+
+
+    <section id="home" class="section">
+      <div class="content">
+        <h1 class="section-title">Introduction</h1>
+        <p>Hi, I'm a skilled software developer with experience in
+          TypeScript and JavaScript 3D/VFX Art, and expertise in frameworks like React, Node.js, and Three.js. I'm a
+          quick learner
+          and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
+          real-world problems. Let's work together to bring your ideas to life!</p>
+      </div>
+    </section>
+
+    <section id="skill" class="section">
+
+      <div class="skills-container">
+        <div class="tilt-card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+          <div class="tilt-inner">
+            <h3>Software Development</h3>
+            <p>Project description</p>
+          </div>
+        </div>
+        <div class="tilt-card " data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+          <div class="tilt-inner">
+            <h3>Web Development</h3>
+            <p>Project description</p>
+          </div>
+        </div>
+        <div class="tilt-card " data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+          <div class="tilt-inner">
+            <h3>3D Artist</h3>
+            <p>Project description</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <section id="projects" class="section">
+
+      <div class="content">
+        <div id="projects-intro">
+          <h2 class="section-title">Projects</h2>
+          <p>Following projects showcases my skills and experience through real-world examples of my work. Each project
+            is
+            briefly described with links to code repositories and live demos in it. It reflects my ability to solve
+            complex problems, work with different technologies, and manage projects effectively.</p>
+        </div>
+
+        <div class="project pl">
+          <h3>AI Image Generation |</h3>
+          <p>
+            I created an AI-powered image generation platform using Stable Diffusion, hosted locally on my computer. The
+            platform offers both text-to-image (T2I) and image-to-image (I2I) capabilities, allowing users to generate
+            images from text prompts or by modifying existing images. I designed a customizable user interface where
+            users can input their prompts, negative prompts, adjust the CFG scale, and select custom image sizes.
+          </p>
+          <a href="https://github.com/Dev-ArihantJain">
+
+            <div class="project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+              <img src="./assest/ai web.jpg" alt="IMG">
+            </div>
+          </a>
+
+        </div>
+
+
+
+        <div class="project pr">
+          <h3>2D Game (Bugs Of War)</h3>
+          <p>
+            I developed an interactive game that features smooth player controls and automated firing mechanics, all
+            integrated with a real-time tracking and scoring system. The game’s user interface is designed to be
+            responsive and visually engaging, using the HTML5 Canvas API for dynamic graphics
+          </p>
+          <a href="https://dev-arihantjain.github.io/BUGS_OF_WAR/" class="hreg">
+            <div class="project-card-right" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+              <img src="./assest/bow.png" alt="2D Game">
+            </div>
+          </a>
+        </div>
+
+        <div class="project pl">
+          <h3>EdTech Application</h3>
+          <p>
+            A comprehensive educational technology platform designed to enhance online learning experiences. Built
+            with React and Tailwind CSS, the platform features seamless user navigation, real-time data updates with
+            Firebase, and integrated payment systems using PayPal for secure transactions and Google
+            SMTP for email notification
+          </p>
+          <a href="https://ed-tech-indol.vercel.app/">
+            <div class="project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.4">
+              <img src="./assest/et.png" alt="ED_TECH">
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <section id="contact" class="section">
+      <div class="content">
+
+        <h2 class="section-title">Contact Me</h2>
+        <p>If you'd like to discuss a project or just want to say hello, feel free to get in touch with me. You can
+          reach me via email at <a href="mailto:arihant2001jain@gmail.com">arihant2001jain@gmail.com</a>.</p>
+
+
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div id="message" class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button class="form-group-button " type="submit">Send</button>
+        </form>
+
+
+        <div id="earth-container">
+
+          <canvas id="canvas3"></canvas>
+
+        </div>
+
+
+      </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+  </div>
+
+</body>
+<script type="module" src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="module" src="particle.js"></script>
+
+<script src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+  VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+    max: 25,
+    speed: 400
+  });
+</script>
+
+<script type="module" src="earth.js"></script>
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+</html>
